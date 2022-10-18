@@ -7,18 +7,24 @@
 * {
 box-sizing: border-box;
 }
+ h1, h2, h3, h4, section {
+ margin: 10px;
+ padding: 10px;
+ }
+ 
+ h1 {
+ text-align: center;
+}
+
   @media (min-width: 992px) {
-    #container {
-    position: relative;
-    background: grey;
-    }
 .col-lg-4 {
     width: 33.3%;
     float: left;
+     border-style: solid;
     }
      h2 {
     position: relative;
-    left: 70%;
+    left: 61%;
     top: 15px;
     text-aling: center;
     font-size: 25px;
@@ -34,33 +40,35 @@ box-sizing: border-box;
     
     h4 {
     position: relative;
-    left: 70%;
+    left: 68%;
     top: 15px;
     text-aling: center;
     font-size: 25px;
     }
-       
+    
+  section {
+    text-align: center;
+   }     
   
 }
    @media (min-width: 768px) and (max-width: 991px)  {
-       #container {
-    position: relative;
-    background: grey;
-    }
+     
 .col-md-6 {
     width: 50%;
     float: left;
+    border-style: solid;
     }
 .col-md-12 {
   width: 100%;
   float: left;
+   border-style: solid;
      }
  h2 {
     position: relative;
-    left: 70%;
+    left: 63%;
     top: 15px;
-    text-aling: center;
     font-size: 25px;
+    border-style: solid;
     }
     
     h3 {
@@ -78,15 +86,16 @@ box-sizing: border-box;
     text-aling: center;
     font-size: 25px;
     }
+    section {
+    text-align: center;
+   }
 }
    @media (max-width: 767px) {
-       #container {
-    position: relative;
-    background: grey;
-    }
+
 .col-lg-4 {
     width: 100%;
     float: left;
+     border-style: solid;
     }
     h2 {
     position: relative;
@@ -109,6 +118,9 @@ box-sizing: border-box;
     text-aling: center;
     font-size: 25px;
     }
+    section {
+    text-align: center;
+   }
 }
   
   
@@ -139,3 +151,5 @@ box-sizing: border-box;
   </div>
 </body>  
 </html>
+
+
